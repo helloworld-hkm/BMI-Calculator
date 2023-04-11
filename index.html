@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header-form">
+        <h1>🚨 Check Your BMI</h1>
+        <p>Enter your wight and height below to check your BMI result</p>
+      </div>
+      <form id="form-input">
+        <div id="text-input">
+          <p>Put your weight in here (KG)</p>
+          <input type="number" id="input-BB" />
+          <p>And your height in here (CM)</p>
+          <input type="number" id="input-TB" />
+        </div>
+        <button id="btn-input">Calculate BMI</button>
+        <button id="btn-reset">Reset</button>
+      </form>
+
+      <div>
+        <h2>Result:</h2>
+        <!-- <p>Your BMI is <b>21.6</b> which means your are <b>Normal</b></p> -->
+        <p id="result">No Result</p>
+      </div>
+      <div id="footer">
+        <hr>
+        <p>  created by<b> Hakim Firman F.</b></p>
+      </div>
+    </div>
+  </body>
+</html>
