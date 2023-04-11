@@ -23,10 +23,13 @@ btnInput.addEventListener("click" , (event)=>{
         let advice;
         if (bmi < 18.5) {
             status="Underweight 😶"
+            advice="Increase calories & nutrients, exercise to gain weight."
           } else if (bmi >= 18.5 && bmi <= 24.9) {
             status="Normal weigh 😁"
+            advice="Balanced food, workout. BMI good."
           } else if (bmi >= 25 && bmi <= 29.9) {
             status="Overweight 😰 "
+            advice="Reduce calories, exercise regularly for weight & health."
           } else {
             status="Obesity 😱"
             advice="Eat well, exercise, lose weight"
