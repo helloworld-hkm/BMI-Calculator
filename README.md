@@ -2,7 +2,7 @@
 
 ## Technical Project Assignment (TPA) #2 - BMI Calculator
 
-
+link Netlify [disini](https://tpa-002hakimff.netlify.app/)
 
 ### Specs
 
@@ -27,5 +27,5 @@
   BMI = 21.5
   BMI Categories: Normal Weight
 
-![BMI Calculator](https://i.ibb.co/rsd83qD/Screenshot-2023-04-12-015440.png)
+![BMI Calculator](https://i.ibb.co/qRFM4Jh/Screenshot-2023-04-12-015440.png)
 
